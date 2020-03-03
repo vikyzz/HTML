@@ -1,0 +1,95 @@
+body{
+    margin:0;
+}
+
+@media only screen and (min-width:600px){
+#window{
+    width:100vw;
+    height:100vh;
+    background-color:bisque;
+} 
+}
+
+@media only screen and (max-width:300px){
+    #window{
+        width:100vw;
+        height:100vh;
+        background-color:grey;
+    } 
+    }
+
+.box{
+    width:100px;
+    height:100px;
+}
+
+#window div:nth-child(1){
+    background-color:cyan;
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+    
+
+
+#window div:nth-child(2){
+    background-color:violet;
+    position:absolute;
+    left:100px;
+    top:100px;
+    
+}
+
+#window div:nth-child(3){
+    background-color:indigo;
+    position:absolute;
+    left:200px;
+    top:200px;
+    
+}
+
+#window div:nth-child(4){
+    background-color:green;
+    position:absolute;
+    left:300px;
+    top:300px;
+    
+}
+
+#window div:nth-child(5){
+    
+    background-color:orange;
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+
+#window div:nth-child(6){
+    
+    background-color:red;
+    position:absolute;
+    right:100px;
+    top:100px;
+}
+
+#window div:nth-child(7){
+    
+    background-color:blue;
+    position:absolute;
+    right:200px;
+    top:200px;
+}  
+
+#window div:nth-child(8){
+    
+    background-color:black;
+    position:absolute;
+    right:300px;
+    top:300px;
+}
+
+
+
+    
+
+    
